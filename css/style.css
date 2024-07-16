@@ -1,0 +1,135 @@
+/* USED */
+@keyframes smooth-appear {
+    to{
+      bottom: 20px;
+      opacity:1;
+    }
+  }
+
+html,body {
+    height:100%;
+    padding:0;
+    overflow-x: hidden;
+    max-width: 100%;
+    scroll-snap-type: y mandatory;
+}
+
+
+@media only screen and (min-width: 1470px){
+    #fstack{
+        scale: 275%;
+    }
+    #developer{
+        scale: 240%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1470px) {
+    #fstack{
+        scale: 190%;
+    }
+    #developer{
+        scale: 160%;
+        margin-top: -30px;
+    }    
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 1200px) {
+    #fstack{
+        scale: 285%;
+    }
+    #developer{
+        scale: 250%;
+    }
+}
+
+@media only screen and (min-width: 424px) and (max-width: 576px){
+    #fstack{
+        scale: 230%;
+    }
+    #developer{
+        scale: 200%;
+        margin-top: -20px;
+    }
+}
+
+@media only screen and (max-width: 424px){
+    #fstack{
+        scale: 170%;
+    }
+    #developer{
+        scale: 150%;
+        margin-top: -30px;
+        margin-left: -100px;
+        margin-bottom: -50px;
+    }
+    #hello{
+        margin-top: -300px;
+    }
+}
+
+
+
+
+/* BREAKPOINT SMALL */
+
+@media only screen and (max-width: 576px) {
+    #me{
+        max-width: 50%;
+        margin-top: -50px;
+        
+    } 
+}
+
+                /* BREAKPOINT SMALL */
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    #me{
+        margin-left: 160px;
+    }
+}
+
+                /* BREAKPOINT MEDIUM */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+   
+}
+                                
+                /* BREAKPOINT LARGE */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    #navSpace{
+        margin-top: 20px;
+    }
+}
+    
+                /* BREAKPOINT X LARGE */
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    #navSpace{
+        margin-top: 60px;
+    }
+    .Section{
+        scroll-snap-align: start;
+        scroll-snap-stop: always ;
+    }
+}
+
+                /* BREAKPOINT XX LARGE */
+
+@media only screen and (min-width: 1400px) {
+    #navSpace{
+        margin-top: 60px;
+    }
+    .Section{
+        scroll-snap-align: start;
+        scroll-snap-stop: always ;
+    }
+}
+
+
+
+
+
+
